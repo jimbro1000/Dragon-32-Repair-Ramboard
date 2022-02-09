@@ -38,6 +38,9 @@ column of pads between each socket). Trimming of the sockets may be necessary if
 the fitted pin headers are too high on the top side of the board
 5. (optional) fit the 1k resistor and led (shows a live 5v connection to the 
 board)
+6. (experimental) Fit decoupling capacitors to positions C1-C16. If the positions
+are not filled then the pads must be bridged to provide Vcc 5V to the onboard
+memory chips (U1-U16)
 
 tip: If you fit the sockets to the main board first, these can be used to make 
 sure the header pins align correctly before soldering them in. Care must be taken
@@ -62,6 +65,7 @@ sockets for the Din and Dout pin positions
 | pin header | | U2-U15 pin 2, pin 14 |
 | red led 5mm | 1 | (optional) D1 |
 | 1k 0.25W resistor | 1 | (optional) R1 |
+| 330nF capacitor | 16 | (experimental) C1-C16 |
 
 ## Contact
 The project was created by Julian Brown.
