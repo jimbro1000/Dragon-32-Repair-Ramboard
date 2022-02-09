@@ -24,3 +24,6 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# backups
+D32 mk2 iss6 ramboard-backups/
